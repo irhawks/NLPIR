@@ -1,50 +1,53 @@
-#NLPIR
-开发者：张华平/Dr. Kevin Zhang</br>
-NLPIR官方网站：<http://www.nlpir.org/>
-在线演示网址： http://ictclas.nlpir.org/nlpir/
-张华平 博士 副教授 研究生导师
-大数据搜索挖掘实验室（北京市海量语言信息处理与云计算应用工程技术研究中心） 主任
-地址：北京海淀区中关村南大街5号 100081
-电话：+86-10-68918642
-手机（助手）：+86-13681251543
-Email:kevinzhang@bit.edu.cn
-MSN:  pipy_zhang@msn.com;
-网站: http://www.nlpir.org (自然语言处理与信息检索共享平台)
-http://www.bigdataBBS.com (大数据论坛)
-微博:http://www.weibo.com/drkevinzhang/
-微信：drkevinzhang
-微信公众号：大数据千人会
-Dr. Kevin Zhang  (张华平，Zhang Hua-Ping)
-Associate Professor, Graduate Supervisor
-Director, Big Data Search and Mining Lab. 
-Beijing Engineering Research Center of Massive Language Information Processing and Cloud Computing Application
-Beijing Institute of Technology
-Add: No.5, South St.,Zhongguancun,Haidian District,Beijing,P.R.C  PC:100081
-Tel: +86-10-68918642
-Mobile(Assistant)：+86-13681251543
-Email:kevinzhang@bit.edu.cn
-MSN:  pipy_zhang@msn.com;
-Website: http://www.nlpir.org (Natural Language Processing and
-Information Retrieval Sharing Platform)
-http://www.bigdataBBS.com (Big Data Forum)
-Twitter: http://www.weibo.com/drkevinzhang/
-Webchat: drkevinzhang
-Subscriptions: Thousands of  Big Data Experts
+# NLPIR
+
+* 开发者：张华平/Dr. Kevin Zhang</br>
+* NLPIR官方网站：<http://www.nlpir.org/>
+* 在线演示网址： http://ictclas.nlpir.org/nlpir/
+
+* 张华平 博士 副教授 研究生导师
+* 大数据搜索挖掘实验室（北京市海量语言信息处理与云计算应用工程技术研究中心） 主任
+* 地址：北京海淀区中关村南大街5号 100081
+* 电话：+86-10-68918642
+* 手机（助手）：+86-13681251543
+* Email:kevinzhang@bit.edu.cn
+* MSN:  pipy_zhang@msn.com;
+* 网站: http://www.nlpir.org (自然语言处理与信息检索共享平台), http://www.bigdataBBS.com (大数据论坛)
+* 微博:http://www.weibo.com/drkevinzhang/
+* 微信：drkevinzhang
+* 微信公众号：大数据千人会
+
+* Dr. Kevin Zhang  (张华平，Zhang Hua-Ping)
+* Associate Professor, Graduate Supervisor
+* Director, Big Data Search and Mining Lab. 
+* Beijing Engineering Research Center of Massive Language Information Processing and Cloud Computing Application
+* Beijing Institute of Technology
+
+* Add: No.5, South St.,Zhongguancun,Haidian District,Beijing,P.R.C  PC:100081
+* Tel: +86-10-68918642
+* Mobile(Assistant)：+86-13681251543
+* Email:<kevinzhang@bit.edu.cn>
+* MSN:  <pipy_zhang@msn.com>;
+* Website: <http://www.nlpir.org> (Natural Language Processing and Information Retrieval Sharing Platform), http://www.bigdataBBS.com (Big Data Forum)
+* Twitter: http://www.weibo.com/drkevinzhang/
+* Webchat: drkevinzhang
+* Subscriptions: Thousands of  Big Data Experts
  
-##简介
+## 简介
+
 NLPIR是一套专门针对原始文本集进行处理和加工的软件，提供了中间件处理效果的可视化展示，也可以作为小规模数据的处理加工工具。用户可以使用该软件对自己的数据进行处理。
 >NLPIR分词系统前身为2000年发布的ICTCLAS词法分析系统，从2009年开始，为了和以前工作进行大的区隔，并推广NLPIR自然语言处理与信息检索共享平台，调整命名为NLPIR分词系统。</br>
 >NLPIR 系统支持多种编码（GBK 编码、UTF8 编码、BIG5 编码）、多种操作系统（Windows, Linux， FreeBSD 等所有主流操作系统）、多种开发语言与平台（包括：C/C++/C#,Java,Python,Hadoop 等）。
 
-##NLPIR工程包简介
+## NLPIR工程包简介
+
 License--一个月的授权文件；如果发生授权过期的情况，可以在此目录下下载更新。</br>
 NLPIR_Demo--组件功能演示demo（NLPIR大数据搜索与挖掘共享开发平台）</br>
 NLPIR_SDK--14个组件包，提供了用于技术二次开发的基础工具集，各个组件API可以无缝地融合到客户的各类复杂应用系统之中，可兼容Windows，Linux， Android，Maemo5, FreeBSD等不同操作系统平台，可以供Java，C，C#等各类开发语言使用。
 
 
-##功能介绍
+## 功能介绍
 
-#####NLPIR大数据搜索与挖掘共享开发平台的14种功能：
+##### NLPIR大数据搜索与挖掘共享开发平台的14种功能：
                 
 1. 全文精准检索-JZSearch
 > 支持文本、数字、日期、字符串等各种数据类型，多字段的高效搜索，支持AND/OR/NOT以及NEAR邻近等查询语法，支持维语、藏语、蒙语、阿拉伯、韩语等多种少数民族语言的检索。可以无缝地与现有文本处理系统与数据库系统融合。
@@ -82,13 +85,25 @@ NLPIR_SDK--14个组件包，提供了用于技术二次开发的基础工具集�
 12. 敏感关键词扫描系统KeyScanner
 >关键词扫描系统，可以设置一组关键词，可实现实时高效的关键词扫描出来。设置一个关键词，可以自动识别扫描各类敏感词的变体，如繁体形式、中间加各类干扰噪音。例如：法轮大法 可以自动匹配 	法_轮*大-法 及繁体形式。
 
-##下载说明（Download Instructions）
+## 下载说明（Download Instructions）
 
->如何在github上下载单个文件夹</br>
-需要工具：TortoiseSVN</br>
-操作举例：例如，你只需要“NLPIR SDK”中“classify”文件夹下的代码，先打开 classify, 其 URL 为: "https://github.com/NLPIR-team/NLPIR/tree/master/NLPIR%20SDK/Classify"  然后将   /tree/master/ 换成 /trunk/ 。</br>
-"https://github.com/NLPIR-team/NLPIR/trunk/NLPIR%20SDK/Classify"</br>
-然后, 输入:</br>
-svn checkout https://github.com/NLPIR-team/NLPIR/trunk/NLPIR%20SDK/Classify</br>
-ps: 第一次使用的话, 可能会出现下面这个提示:R)eject, accept (t)emporarily or accept (p)ermanently?</br>
+1. 如何在github上下载单个文件夹
+
+需要工具：TortoiseSVN
+
+操作举例：例如，你只需要“NLPIR SDK”中“classify”文件夹下的代码，先打开 classify, 其 URL 为: "https://github.com/NLPIR-team/NLPIR/tree/master/NLPIR%20SDK/Classify"  然后将 `/tree/master/` 换成 `/trunk/` 。
+"https://github.com/NLPIR-team/NLPIR/trunk/NLPIR%20SDK/Classify"
+
+然后, 输入:
+
+```shell
+svn checkout https://github.com/NLPIR-team/NLPIR/trunk/NLPIR%20SDK/Classify
+```
+
+ps: 第一次使用的话, 可能会出现下面这个提示:
+
+```
+R)eject, accept (t)emporarily or accept (p)ermanently?
+```
+
 输入 P 就行了.
